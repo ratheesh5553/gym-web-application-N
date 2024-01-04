@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Black+Ops+One&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* ---------------nav-bar------------------- */
+body {
+  background-color: black !important;
+}
+.logo {
+  height: 70px;
+  background-size: cover;
+}
+.navfamily {
+  background: #000010;
+  top: 0;
+  position: sticky;
+}
+.nav-family ul li a {
+  color: #ffffff !important;
+  font-size: 18px;
+  font-weight: 600;
+}
+.nav-family ul li a:hover {
+  color: rgb(259, 259, 0) !important;
+  background-color: transparent;
+}
+.dropdownback {
+  background: #000000;
+}
+.dropdownback li a {
+  background: #000000;
+}
+
+/* ---------------home page------------------- */
+.text-join {
+  text-decoration: none;
+  color: #ffffff !important;
+  /* background-color: #000000; */
+}
+.homebg {
+  background-image: url(gym-images/muscular-athlete.jpg);
+  background-size: cover;
+  height: 90vh;
+  /* backdrop-filter: blur(10px); */
+}
+.home-bg-2 {
+  backdrop-filter: blur(5px);
+}
+
+@media only screen and (max-width: 798px) {
+  .home-image2 {
+    margin-top: 20px;
+    height: 50vh;
+    border-radius: 50%;
+  }
+  .home-text3 {
+    color: rgb(253, 246, 246) !important;
+    padding: 5px;
+  }
+}
+.home-text1 {
+  font-size: 40px;
+  opacity: 1;
+}
+.home-text2 {
+  font-size: 70px;
+  color: #aee710;
+  font-weight: 800;
+}
+.home-text3 {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+.button {
+  background: linear-gradient(90deg in oklab, rgb(255, 0, 0), rgb(0, 0, 255));
+  border-radius: 100px;
+
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 7px 20px;
+  transition: all 250ms;
+  border: 2px solid white;
+  font-size: 16px;
+}
+
+.button:hover {
+  color: rgb(259, 259, 0);
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-3deg);
+}
+
+/* ---------------About-Us------------------- */
+
+.text-about {
+  color: aqua;
+}
+.about-image2 {
+  height: 85vh;
+  background-image: url(gym-images/lady-workout.webp);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+
+  z-index: 0;
+}
+@media only screen and (max-width: 798px) {
+  .about-image2 {
+    height: 50vh;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  .button-about {
+    background: linear-gradient(90deg in oklab, rgb(255, 0, 0), rgb(0, 0, 255));
+    border-radius: 100px;
+    border: 2px solid white;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding-right: 15px;
+    font-size: 16px;
+    width: 40px;
+    padding-left: -10px !important;
+  }
+}
+.about-para {
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.button-about {
+  height: 40px;
+  width: 100px;
+  background: linear-gradient(90deg in oklab, rgb(255, 0, 0), rgb(0, 0, 255));
+  border-radius: 100px;
+  border: 2px solid white;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 7px 15px;
+  transition: all 250ms;
+  font-size: 16px;
+  padding-right: 25px;
+}
+
+.button-about:hover {
+  color: rgb(259, 259, 0);
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-3deg);
+}
+.about-text {
+  color: rgb(259, 259, 0);
+}
+/* ----------Trainers------------ */
+/* .card-trainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+} */
+.img-hover {
+  padding: 10px;
+  margin: 2px;
+}
+.img-hover:hover {
+  transform: scale(1.03);
+  transition: 0.5s;
+}
+.text-trainers {
+  color: aqua;
+  font-size: 35px;
+  font-weight: 400px;
+}
+.card-bg-body {
+  background: black;
+  opacity: 0.9;
+  color: white;
+}
+@media only screen and (max-width: 798px) {
+  .card-trainer {
+    align-items: center;
+  }
+  .img-hover {
+    padding: 3px;
+    margin-left: 100px;
+    margin-top: 15px;
+  }
+  .text-trainers {
+    color: aqua;
+    font-size: 35px;
+    font-weight: 400px;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+}
+/* ----------service------------ */
+
+/* .service-bg {
+  height: 85vh;
+  background-image: url(gym-images/interior.jpg);
+  opacity: 0.7;
+  box-sizing: border-box;
+  overflow-y: hidden;
+} */
+.class-slide {
+  height: 65vh;
+  width: 60vw;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 20px; */
+}
+.class-text {
+  line-height: 30px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  background-color: #000000;
+}
+@media only screen and (max-width: 798px) {
+  .service-imgs {
+    height: 350px !important;
+    width: 350px !important;
+    border-radius: 40% 20% !important;
+  }
+}
+.service-imgs {
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  padding-left: 30px;
+  /* padding-top: 20px; */
+}
+.service-class {
+  height: 300px;
+
+  border: 2px solid rgb(255, 255, 255);
+  margin-top: 15px;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+.service-para {
+  font-size: 18px;
+  font-weight: 700;
+}
+.service-head {
+  font-size: 25px;
+  font-weight: 700;
+  color: #000000;
+}
+/* <------------blog-----------> */
+@media only screen and (max-width: 798px) {
+  .img-blog {
+    /* background-image: url(gym-images/strong-athletic\ men.jpg); */
+
+    width: 80vw !important;
+    height: 20vh !important;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+  }
+  .review-box {
+    display: flex;
+    height: 50vh !important;
+    /* border: 2px solid rgb(0, 0, 0); */
+    /* background-color: #d9ff00 !important; */
+    border-radius: 50px 150px;
+    text-align: center;
+  }
+}
+
+.review-box {
+  display: flex;
+  height: 60vh;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: #ffffff;
+  border-radius: 50px 150px;
+  text-align: center;
+}
+.blog-name {
+  font-size: 30px;
+  font-weight: 600;
+  /* line-height: 15p; */
+  margin-right: 200px;
+}
+.test-page {
+  display: flex;
+  background: #ffffff;
+  border-radius: 150px 150px;
+  text-align: center;
+}
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.testimonial-card .avatar {
+  width: 110px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
